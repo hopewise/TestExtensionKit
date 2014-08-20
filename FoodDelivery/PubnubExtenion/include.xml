@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<ndll name="pubnubextenion" />
+	
+	<!-- Use the following for an Android Java extension, not needed otherwise -->
+	
+	<dependency name="pubnubextenion" path="dependencies/android" if="android" />
+	<android extension="org.haxe.extension.PubnubExtenion" />
+	
+	<include path="../extensionkit" />
+	
+	
+	
+	
+</project>
